@@ -1,14 +1,13 @@
 # MAML for Zed
 
-Syntax highlighting, bracket matching, indentation and outline for
-[MAML](https://maml.dev) files in Zed, built on
-[tree-sitter-maml](../tree-sitter-maml).
+Syntax highlighting, bracket matching, indentation and an outline of keys for
+[MAML](https://maml.dev) files in Zed. The parser is
+[tree-sitter-maml](https://github.com/0x80/tree-sitter-maml).
 
 ## Install locally
 
 Run **zed: install dev extension** from the command palette and pick this directory.
 
-`extension.toml` points at the grammar through a `file://` URL and a commit SHA. After
-committing a grammar change, update `rev` and reinstall the extension. Before publishing
-to `zed-industries/extensions`, replace the `file://` URL with the grammar's public
-repository.
+`rev` in `extension.toml` pins a grammar commit. After the grammar changes, set `rev`
+to the new commit and reinstall. To test an unpushed grammar change, point
+`repository` at the local checkout with a `file://` URL.

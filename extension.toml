@@ -4,7 +4,8 @@ description = "Syntax highlighting for MAML, the minimal human-readable data for
 version = "0.1.0"
 schema_version = 1
 authors = ["Thijs Koerselman"]
+repository = "https://github.com/0x80/zed-maml"
 
 [grammars.maml]
-repository = "file:///Users/thijskoerselman/Development/tree-sitter-maml"
-rev = "f0b3e203eef9c836acf55976c12c8a8bf07f539b"
+repository = "https://github.com/0x80/tree-sitter-maml"
+rev = "11dddae6dd8dc9353b11a25170e95008a60e481e"
