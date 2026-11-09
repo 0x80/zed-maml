@@ -1,0 +1,10 @@
+id = "maml"
+name = "MAML"
+description = "Syntax highlighting for MAML, the minimal human-readable data format."
+version = "0.1.0"
+schema_version = 1
+authors = ["Thijs Koerselman"]
+
+[grammars.maml]
+repository = "file:///private/tmp/claude-501/-Users-thijskoerselman-Development-agent-tooling--worktrees-1109-maml-syntax-zed/30af575b-86de-498c-bbc5-45362de88d35/scratchpad/tree-sitter-maml"
+rev = "f0b3e203eef9c836acf55976c12c8a8bf07f539b"
